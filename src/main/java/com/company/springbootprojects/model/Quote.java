@@ -1,4 +1,4 @@
-package com.company.springbootprojects.consumingrest;
+package com.company.springbootprojects.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 //import com.sun.jdi.Value;

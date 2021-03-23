@@ -1,6 +1,6 @@
 package com.company.springbootprojects;
 
-import com.company.springbootprojects.consumingrest.Quote;
+import com.company.springbootprojects.model.Quote;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -29,4 +29,5 @@ public class SpringBootProjectsApplication {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(uri, Quote.class);
     }
+
 }
