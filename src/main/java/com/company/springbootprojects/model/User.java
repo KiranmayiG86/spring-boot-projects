@@ -1,5 +1,5 @@
 package com.company.springbootprojects.model;
-
+//Accessing data
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
